@@ -56,12 +56,12 @@
 \
 + (id)set;\
 + (id)setWithObject:(object_class)object;\
-+ (id)setWithObjects:(const object_class [])objects count:(NSUInteger)cnt;\
++ (id)setWithObjects:(__unsafe_unretained const object_class [])objects count:(NSUInteger)cnt;\
 + (id)setWithObjects:(object_class)firstObj, ... NS_REQUIRES_NIL_TERMINATION;\
 + (id)setWithSet:(WMGenericSet *)set;\
 + (id)setWithArray:(NSArray_values_class)array;\
 \
-- (id)initWithObjects:(const object_class [])objects count:(NSUInteger)cnt;\
+- (id)initWithObjects:(__unsafe_unretained const object_class [])objects count:(NSUInteger)cnt;\
 - (id)initWithObjects:(object_class)firstObj, ... NS_REQUIRES_NIL_TERMINATION;\
 - (id)initWithSet:(WMGenericSet *)set;\
 - (id)initWithSet:(WMGenericSet *)set copyItems:(BOOL)flag;\
@@ -111,12 +111,12 @@ _Pragma("clang diagnostic ignored \"-Wduplicate-method-match\"")\
 \
 + (id)set;\
 + (id)setWithObject:(object_class)object;\
-+ (id)setWithObjects:(const object_class [])objects count:(NSUInteger)cnt;\
++ (id)setWithObjects:(__unsafe_unretained const object_class [])objects count:(NSUInteger)cnt;\
 + (id)setWithObjects:(object_class)firstObj, ... NS_REQUIRES_NIL_TERMINATION;\
 + (id)setWithSet:(WMGenericSet *)set;\
 + (id)setWithArray:(NSArray_values_class)array;\
 \
-- (id)initWithObjects:(const object_class [])objects count:(NSUInteger)cnt;\
+- (id)initWithObjects:(__unsafe_unretained const object_class [])objects count:(NSUInteger)cnt;\
 - (id)initWithObjects:(object_class)firstObj, ... NS_REQUIRES_NIL_TERMINATION;\
 - (id)initWithSet:(WMGenericSet *)set;\
 - (id)initWithSet:(WMGenericSet *)set copyItems:(BOOL)flag;\
@@ -203,12 +203,12 @@ _Pragma("clang diagnostic ignored \"-Wduplicate-method-match\"")\
 \
 + (id)set;\
 + (id)setWithObject:(object_class)object;\
-+ (id)setWithObjects:(const object_class [])objects count:(NSUInteger)cnt;\
++ (id)setWithObjects:(__unsafe_unretained const object_class [])objects count:(NSUInteger)cnt;\
 + (id)setWithObjects:(object_class)firstObj, ... NS_REQUIRES_NIL_TERMINATION;\
 + (id)setWithSet:(WMGenericSet *)set;\
 + (id)setWithArray:(NSArray_values_class)array;\
 \
-- (id)initWithObjects:(const object_class [])objects count:(NSUInteger)cnt;\
+- (id)initWithObjects:(__unsafe_unretained const object_class [])objects count:(NSUInteger)cnt;\
 - (id)initWithObjects:(object_class)firstObj, ... NS_REQUIRES_NIL_TERMINATION;\
 - (id)initWithSet:(WMGenericSet *)set;\
 - (id)initWithSet:(WMGenericSet *)set copyItems:(BOOL)flag;\
